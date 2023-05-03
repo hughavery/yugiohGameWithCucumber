@@ -1,0 +1,100 @@
+20:45:38.816 [main] INFO  uc.seng301.cardbattler.asg3.App - Starting application...
+20:45:57.519 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - User input: create_player hugh
+20:45:57.739 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - Valid input, created user 1: hugh
+20:46:04.517 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - User input: create_player devlin
+20:46:04.597 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - Valid input, created user 2: devlin
+20:46:20.519 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - User input: create_deck hugh lucky
+20:46:20.605 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - Valid input, created deck 1 for user 1 with name lucky
+20:46:30.521 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - User input: draw lucky hugh
+20:46:42.523 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - User input: draw hugh lucky
+20:46:43.622 [pool-2-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 82105704
+20:46:44.307 [pool-2-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:48:33.541 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - User input: battle_deck hugh battle
+20:49:56.559 [pool-3-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 25882881
+20:49:57.891 [pool-3-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:49:59.326 [pool-4-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 23659124
+20:49:59.819 [pool-4-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:01.250 [pool-5-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 52121290
+20:50:01.574 [pool-5-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:03.859 [pool-6-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 4931562
+20:50:04.178 [pool-6-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:05.595 [pool-7-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 42348802
+20:50:05.956 [pool-7-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:07.384 [pool-8-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 91152256
+20:50:07.761 [pool-8-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:09.177 [pool-9-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 63515678
+20:50:09.541 [pool-9-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:10.962 [pool-10-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 49370026
+20:50:11.351 [pool-10-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:12.773 [pool-11-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 98898173
+20:50:13.163 [pool-11-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:14.603 [pool-12-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 3557275
+20:50:14.920 [pool-12-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:16.357 [pool-13-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 97923414
+20:50:16.748 [pool-13-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:18.179 [pool-14-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 74519184
+20:50:18.568 [pool-14-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:20.821 [pool-15-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 21420702
+20:50:21.202 [pool-15-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:22.631 [pool-16-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 39564736
+20:50:23.012 [pool-16-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:24.418 [pool-17-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 36376145
+20:50:24.789 [pool-17-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:26.207 [pool-18-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 68456353
+20:50:26.576 [pool-18-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:28.827 [pool-19-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 20745268
+20:50:29.224 [pool-19-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:31.510 [pool-20-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 1942635
+20:50:31.896 [pool-20-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:33.305 [pool-21-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 38318146
+20:50:33.672 [pool-21-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:50:35.081 [pool-22-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 35537860
+20:50:35.451 [pool-22-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+20:51:34.573 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - User input: print hugh
+20:59:48.652 [main] INFO  uc.seng301.cardbattler.asg3.App - Starting application...
+20:59:53.300 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - User input: print hugh
+21:00:00.298 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - User input: create_player hugh
+21:00:00.422 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - Valid input, created user 1: hugh
+21:00:12.300 [main] INFO  uc.seng301.cardbattler.asg3.game.Game - User input: battle_deck hugh bat
+21:00:23.315 [pool-2-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 42591472
+21:00:24.192 [pool-2-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:25.660 [pool-3-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 36904469
+21:00:26.853 [pool-3-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:28.278 [pool-4-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 74637266
+21:00:28.655 [pool-4-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:30.079 [pool-5-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 60715406
+21:00:31.281 [pool-5-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:32.712 [pool-6-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 20624263
+21:00:33.088 [pool-6-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:34.509 [pool-7-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 32549749
+21:00:34.895 [pool-7-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:36.669 [pool-8-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 17418744
+21:00:37.187 [pool-8-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:38.634 [pool-9-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 19673561
+21:00:39.026 [pool-9-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:40.447 [pool-10-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 3105404
+21:00:40.825 [pool-10-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:42.246 [pool-11-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 30488793
+21:00:43.324 [pool-11-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:44.737 [pool-12-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 1802450
+21:00:45.124 [pool-12-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:46.558 [pool-13-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 47060154
+21:00:46.890 [pool-13-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:48.317 [pool-14-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 63035430
+21:00:48.705 [pool-14-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:50.129 [pool-15-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 83438826
+21:00:50.526 [pool-15-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:51.942 [pool-16-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 21239280
+21:00:52.336 [pool-16-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:53.757 [pool-17-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 31548814
+21:00:54.148 [pool-17-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:55.572 [pool-18-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 80368942
+21:00:55.957 [pool-18-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:57.387 [pool-19-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 73481154
+21:00:57.770 [pool-19-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:00:59.203 [pool-20-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 10352095
+21:00:59.598 [pool-20-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+21:01:01.037 [pool-21-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Fetching card with id: 86223870
+21:01:01.429 [pool-21-thread-1] INFO  uc.seng301.cardbattler.asg3.cards.CardService - Api responded with status code: 200
+10:28:19.747 [main] INFO  uc.seng301.cardbattler.asg3.App - Starting application...
+10:33:05.927 [main] INFO  uc.seng301.cardbattler.asg3.App - Starting application...

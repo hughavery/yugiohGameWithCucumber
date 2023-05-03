@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- sqlite properties -->
+        <property name="hibernate.dialect">org.hibernate.community.dialect.SQLiteDialect</property>
+        <property name="connection.url">jdbc:sqlite:asg3.sqlite</property>
+        <property name="connection.driver_class">org.sqlite.JDBC</property>
+        <!-- Set this to "true" to print all executed SQL to stdout -->
+        <property name="show_sql">false</property>
+        <!-- generate the schema at startup -->
+        <property name="hibernate.hbm2ddl.auto">create</property>
+        <!-- specify the classes that are mapped to database tables -->
+        <mapping class="uc.seng301.cardbattler.asg3.model.Player" />
+        <mapping class="uc.seng301.cardbattler.asg3.model.Deck" />
+        <mapping class="uc.seng301.cardbattler.asg3.model.Card" />
+        <mapping class="uc.seng301.cardbattler.asg3.model.Monster" />
+        <mapping class="uc.seng301.cardbattler.asg3.model.Spell" />
+        <mapping class="uc.seng301.cardbattler.asg3.model.Trap" />
+    </session-factory>
+</hibernate-configuration>

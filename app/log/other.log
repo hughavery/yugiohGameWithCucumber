@@ -1,0 +1,1272 @@
+10:28:20.732 [main] TRACE org.hibernate.metamodel.model.domain.AbstractIdentifiableType - Interpreting domain-model identifier descriptor
+10:28:20.750 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Completed entity [uc.seng301.cardbattler.asg3.model.Player]
+10:28:20.750 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Starting entity [uc.seng301.cardbattler.asg3.model.Spell]
+10:28:20.750 [main] TRACE org.hibernate.metamodel.model.domain.AbstractIdentifiableType - Interpreting domain-model identifier descriptor
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Completed entity [uc.seng301.cardbattler.asg3.model.Spell]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Starting entity [uc.seng301.cardbattler.asg3.model.Monster]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Monster.attack]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [attack]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private int uc.seng301.cardbattler.asg3.model.Monster.attack]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=integer, class=org.hibernate.type.internal.NamedBasicTypeImpl]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Monster.cardPosition]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [cardPosition]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private uc.seng301.cardbattler.asg3.model.CardPosition uc.seng301.cardbattler.asg3.model.Monster.cardPosition]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=org.hibernate.type.EnumType, class=org.hibernate.type.CustomType]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Monster.defence]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [defence]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private int uc.seng301.cardbattler.asg3.model.Monster.defence]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=integer, class=org.hibernate.type.internal.NamedBasicTypeImpl]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Monster.life]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [life]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private int uc.seng301.cardbattler.asg3.model.Monster.life]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=integer, class=org.hibernate.type.internal.NamedBasicTypeImpl]
+10:28:20.751 [main] TRACE org.hibernate.metamodel.model.domain.AbstractIdentifiableType - Interpreting domain-model identifier descriptor
+10:28:20.752 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Completed entity [uc.seng301.cardbattler.asg3.model.Monster]
+10:28:20.753 [main] DEBUG org.hibernate.query.named.NamedObjectRepository - Checking 0 named HQL queries
+10:28:20.753 [main] DEBUG org.hibernate.query.named.NamedObjectRepository - Checking 0 named SQL queries
+10:28:20.755 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.tool.schema.spi.SchemaManagementTool]
+10:28:20.758 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.tool.schema.spi.SqlScriptCommandExtractor]
+10:28:20.759 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@43d76a92] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+10:28:20.916 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@12192604] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+10:28:21.134 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform]
+10:28:21.135 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+10:28:21.135 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatformResolver]
+10:28:21.135 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+10:28:21.140 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:28:21.140 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:28:21.144 [main] DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+10:28:21.144 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.event.spi.EntityCopyObserverFactory]
+10:28:21.144 [main] DEBUG org.hibernate.event.internal.EntityCopyObserverFactoryInitiator - Configured EntityCopyObserver strategy: disallow
+10:28:21.147 [main] TRACE org.hibernate.type.spi.TypeConfiguration$Scope - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@5a8c93] for TypeConfiguration
+10:28:21.147 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@62f9c790
+10:28:21.147 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jndi.spi.JndiService]
+10:28:21.148 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Registering SessionFactory: b9da611d-eea2-4964-a6d5-62b722f4ebe7 (<unnamed>)
+10:28:21.148 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+10:28:50.120 [Hibernate Connection Pool Validation Thread] DEBUG org.hibernate.orm.connections.pooling - Connection pool now considered primed; min-size will be maintained
+10:33:05.927 [main] INFO  uc.seng301.cardbattler.asg3.App - Starting application...
+10:33:05.942 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+10:33:05.944 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+10:33:05.945 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+10:33:05.950 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jdbc] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+10:33:05.950 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jta] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+10:33:05.950 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JDBCTransactionFactory] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+10:33:05.950 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JTATransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+10:33:05.950 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.CMTTransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+10:33:05.951 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.query.sqm.mutation.spi.SqmMultiTableMutationStrategy] : [cte] -> [org.hibernate.query.sqm.mutation.internal.cte.CteMutationStrategy]
+10:33:05.951 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.query.sqm.mutation.spi.SqmMultiTableMutationStrategy] : [global_temporary] -> [org.hibernate.query.sqm.mutation.internal.temptable.GlobalTemporaryTableMutationStrategy]
+10:33:05.951 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.query.sqm.mutation.spi.SqmMultiTableMutationStrategy] : [local_temporary] -> [org.hibernate.query.sqm.mutation.internal.temptable.LocalTemporaryTableMutationStrategy]
+10:33:05.951 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.query.sqm.mutation.spi.SqmMultiTableMutationStrategy] : [persistent] -> [org.hibernate.query.sqm.mutation.internal.temptable.PersistentTableMutationStrategy]
+10:33:05.952 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [default] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+10:33:05.952 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+10:33:05.952 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl]
+10:33:05.952 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-hbm] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl]
+10:33:05.952 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [component-path] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl]
+10:33:05.952 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.id.enhanced.ImplicitDatabaseObjectNamingStrategy] : [standard] -> [org.hibernate.id.enhanced.StandardNamingStrategy]
+10:33:05.952 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.id.enhanced.ImplicitDatabaseObjectNamingStrategy] : [single] -> [org.hibernate.id.enhanced.SingleNamingStrategy]
+10:33:05.953 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.id.enhanced.ImplicitDatabaseObjectNamingStrategy] : [legacy] -> [org.hibernate.id.enhanced.LegacyNamingStrategy]
+10:33:05.953 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [default] -> [org.hibernate.cache.internal.DefaultCacheKeysFactory]
+10:33:05.953 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [simple] -> [org.hibernate.cache.internal.SimpleCacheKeysFactory]
+10:33:05.953 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.type.FormatMapper] : [jackson] -> [org.hibernate.type.jackson.JacksonJsonFormatMapper]
+10:33:05.953 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.type.FormatMapper] : [jsonb] -> [org.hibernate.type.jakartajson.JsonBJsonFormatMapper]
+10:33:05.953 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.type.FormatMapper] : [jackson-xml] -> [org.hibernate.type.jackson.JacksonXmlFormatMapper]
+10:33:05.954 [main] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.type.FormatMapper] : [jaxb] -> [org.hibernate.type.jaxb.JaxbXmlFormatMapper]
+10:33:05.962 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+10:33:05.963 [main] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+10:33:06.016 [main] TRACE org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl - trying via [new URL("hibernate.cfg.xml")]
+10:33:06.016 [main] TRACE org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl - trying via [ClassLoader.getResourceAsStream("hibernate.cfg.xml")]
+10:33:06.020 [main] TRACE org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver - In resolveEntity(-//Hibernate/Hibernate Configuration DTD//EN, http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd, null, null)
+10:33:06.020 [main] DEBUG org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver - Checking public/system identifiers `-//Hibernate/Hibernate Configuration DTD//EN`/`http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd` as DTD references
+10:33:06.022 [main] DEBUG org.hibernate.boot.cfgxml.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+10:33:06.096 [main] DEBUG org.hibernate.cfg.Configuration - Building session factory using internal StandardServiceRegistryBuilder
+10:33:06.098 [main] DEBUG org.hibernate.cfg.Configuration - Building session factory using provided StandardServiceRegistry
+10:33:06.101 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.config.spi.ConfigurationService]
+10:33:06.102 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.resource.beans.spi.ManagedBeanRegistry]
+10:33:06.103 [main] DEBUG org.hibernate.orm.idgen.factory - Resolving IdentifierGenerator instances will not use CDI as it was not configured
+10:33:06.104 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+10:33:06.104 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+10:33:06.105 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+10:33:06.105 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+10:33:06.105 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+10:33:06.105 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+10:33:06.105 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+10:33:06.106 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+10:33:06.106 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+10:33:06.106 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+10:33:06.106 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+10:33:06.106 [main] DEBUG org.hibernate.orm.idgen.factory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+10:33:06.107 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider]
+10:33:06.108 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.cache.spi.RegionFactory]
+10:33:06.108 [main] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+10:33:06.109 [main] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+10:33:06.135 [main] DEBUG org.hibernate.type.descriptor.jdbc.spi.JdbcTypeRegistry - addDescriptor(FloatTypeDescriptor) replaced previous registration(DoubleTypeDescriptor)
+10:33:06.138 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@3cc20577
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@3cc20577
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@3cc20577
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@33a630fa
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@33a630fa
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.BasicTypeReference@775594f2
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@775594f2
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@5767b2af
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@5767b2af
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.BasicTypeReference@7b22ec89
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.BasicTypeReference@7b22ec89
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@7b22ec89
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BasicTypeReference@790132f7
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@790132f7
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BasicTypeReference@790132f7
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@2228db21
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@2228db21
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.BasicTypeReference@2228db21
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.BasicTypeReference@2228db21
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.BasicTypeReference@48b0e701
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BasicTypeReference@241a0c3a
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@241a0c3a
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@547c04c4
+10:33:06.139 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@30e92cb9
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.BasicTypeReference@7fae4d4a
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.BasicTypeReference@7fae4d4a
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@7fae4d4a
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.BasicTypeReference@ba1f559
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.BasicTypeReference@ba1f559
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@ba1f559
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.BasicTypeReference@3f4f9acd
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.BasicTypeReference@3f4f9acd
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@3f4f9acd
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.BasicTypeReference@46baf579
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.BasicTypeReference@46baf579
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@46baf579
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.BasicTypeReference@4bf324f9
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.BasicTypeReference@4bf324f9
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@4bf324f9
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@4f7c0be3
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@4f7c0be3
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@ca66933
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@ca66933
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.BasicTypeReference@1d2644e3
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.BasicTypeReference@1d2644e3
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@1d2644e3
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@4fa06f52
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.BasicTypeReference@602c4656
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@602c4656
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.BasicTypeReference@5ffc5491
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.BasicTypeReference@705202d1
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.BasicTypeReference@705202d1
+10:33:06.140 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.BasicTypeReference@705202d1
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@3c443976
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.BasicTypeReference@3c443976
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.BasicTypeReference@3c443976
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.BasicTypeReference@3e58d65e
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.BasicTypeReference@3bd55d8
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.BasicTypeReference@63998bf4
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@63998bf4
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.BasicTypeReference@7e0b9178
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@7e0b9178
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@61942c1
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@6f63c44f
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@408a247c
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@62a8fd44
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@2e6ba49a
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@5f5b5ca4
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.BasicTypeReference@4ee33af7
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@4ee33af7
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@6b04acb2
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@6b04acb2
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@18388a3c
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@18388a3c
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@1d035be3
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@1d035be3
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@4a60ee36
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@4a60ee36
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@4cfbaf4
+10:33:06.141 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@58faa93b
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@5f212d84
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@5f212d84
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@127d7908
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@127d7908
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@6b9c69a9
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@6622a690
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.BasicTypeReference@30b9eadd
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@30b9eadd
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.BasicTypeReference@497570fb
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@497570fb
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@412c995d
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@412c995d
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@412c995d
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.BasicTypeReference@3249a1ce
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@3249a1ce
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@3249a1ce
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@4dd94a58
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@2f4919b0
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration instant -> org.hibernate.type.BasicTypeReference@a8a8b75
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@a8a8b75
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid -> org.hibernate.type.BasicTypeReference@75b21c3b
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@75b21c3b
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@75b21c3b
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@72be135f
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@155d1021
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.BasicTypeReference@4bd2f0dc
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@4bd2f0dc
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.BasicTypeReference@2e647e59
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Currency -> org.hibernate.type.BasicTypeReference@2e647e59
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@2e647e59
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.BasicTypeReference@2c42b421
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@2c42b421
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.BasicTypeReference@51e37590
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@51e37590
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.BasicTypeReference@deb3b60
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@deb3b60
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@701a32
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@701a32
+10:33:06.142 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.BasicTypeReference@39aa45a1
+10:33:06.143 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@39aa45a1
+10:33:06.143 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.BasicTypeReference@73aff8f1
+10:33:06.145 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5a5c128
+10:33:06.145 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5a5c128
+10:33:06.145 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.JavaObjectType@6e28bb87
+10:33:06.145 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@6e28bb87
+10:33:06.146 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration null -> org.hibernate.type.NullType@41d7b27f
+10:33:06.146 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@49096b06
+10:33:06.146 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@4a183d02
+10:33:06.146 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@5d05ef57
+10:33:06.146 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@213deac2
+10:33:06.146 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@23eee4b8
+10:33:06.146 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@28952dea
+10:33:06.146 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@5a9800f8
+10:33:06.146 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@143d9a93
+10:33:06.146 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.boot.cfgxml.spi.CfgXmlAccessService]
+10:33:06.152 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+10:33:06.152 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectFactory]
+10:33:06.153 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectResolver]
+10:33:06.154 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+10:33:06.156 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+10:33:06.157 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.sqlite.JDBC
+10:33:06.157 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:sqlite:asg3.sqlite]
+10:33:06.157 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {}
+10:33:06.157 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+10:33:06.158 [main] DEBUG org.hibernate.orm.connections.pooling - Initializing Connection pool with 1 Connections
+10:33:06.158 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+10:33:06.223 [main] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Database ->
+       name : SQLite
+    version : 3.40.1
+      major : 3
+      minor : 40
+10:33:06.223 [main] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Driver ->
+       name : SQLite JDBC
+    version : 3.40.1.0
+      major : 3
+      minor : 40
+10:33:06.223 [main] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - JDBC version : 4.2
+10:33:06.231 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.community.dialect.SQLiteDialect
+10:33:06.235 [main] DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+10:33:06.235 [main] DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+10:33:06.237 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+10:33:06.237 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+10:33:06.237 [main] DEBUG org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+10:33:06.238 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+10:33:06.239 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider]
+10:33:06.241 [main] DEBUG org.hibernate.type.descriptor.jdbc.spi.JdbcTypeRegistry - addDescriptor(2005, ClobTypeDescriptor(STREAM_BINDING)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+10:33:06.241 [main] DEBUG org.hibernate.type.descriptor.jdbc.spi.JdbcTypeRegistry - addDescriptor(2004, BlobTypeDescriptor(PRIMITIVE_ARRAY_BINDING)) replaced previous registration(BlobTypeDescriptor(DEFAULT))
+10:33:06.241 [main] DEBUG org.hibernate.type.descriptor.jdbc.spi.JdbcTypeRegistry - addDescriptor(2005, ClobTypeDescriptor(STRING_BINDING)) replaced previous registration(ClobTypeDescriptor(STREAM_BINDING))
+10:33:06.243 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.OffsetDateTimeType -> basicType@1(java.time.OffsetDateTime,93)
+10:33:06.243 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> basicType@1(java.time.OffsetDateTime,93)
+10:33:06.243 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> basicType@1(java.time.OffsetDateTime,93)
+10:33:06.243 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.type.ZonedDateTimeType -> basicType@2(java.time.ZonedDateTime,93)
+10:33:06.243 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> basicType@2(java.time.ZonedDateTime,93)
+10:33:06.243 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> basicType@2(java.time.ZonedDateTime,93)
+10:33:06.243 [main] DEBUG org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@67403656] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@5a6482a9]
+10:33:06.273 [main] DEBUG org.hibernate.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+10:33:06.283 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Binding entity from annotated class: uc.seng301.cardbattler.asg3.model.Player
+10:33:06.285 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [DTYPE]
+10:33:06.285 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+10:33:06.286 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Player
+10:33:06.286 [main] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: Player -> uc.seng301.cardbattler.asg3.model.Player
+10:33:06.286 [main] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: uc.seng301.cardbattler.asg3.model.Player -> uc.seng301.cardbattler.asg3.model.Player
+10:33:06.287 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [player]
+10:33:06.287 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [player]
+10:33:06.288 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity uc.seng301.cardbattler.asg3.model.Player on table player
+10:33:06.294 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Player.playerId
+10:33:06.294 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_player]
+10:33:06.295 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_player]
+10:33:06.295 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(player), mappingColumn=id_player, insertable=true, updatable=true, unique=false}
+10:33:06.296 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [uc.seng301.cardbattler.asg3.model.Player] is safe
+10:33:06.296 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : uc.seng301.cardbattler.asg3.model.Player
+10:33:06.296 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property playerId with lazy=false
+10:33:06.297 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [uc.seng301.cardbattler.asg3.model.Player:playerId]
+10:33:06.299 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - building BasicValue for playerId
+10:33:06.306 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: player.id_player
+10:33:06.306 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_player]
+10:33:06.306 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property playerId
+10:33:06.306 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading playerId with null
+10:33:06.307 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(BasicValue([Column(id_player)]), playerId, org.hibernate.id.enhanced.SequenceStyleGenerator, , ...)
+10:33:06.307 [main] TRACE org.hibernate.cfg.AnnotationBinder - Bind @Id on playerId
+10:33:06.307 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Player.decks
+10:33:06.307 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_player]
+10:33:06.307 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: JoinColumn{logicalColumnName='id_player', referencedColumn='', mappedBy=''}
+10:33:06.308 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [decks]
+10:33:06.308 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [decks]
+10:33:06.308 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(player), mappingColumn=decks, insertable=true, updatable=true, unique=false}
+10:33:06.311 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [decks_ORDER]
+10:33:06.312 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(player), mappingColumn=decks_ORDER, insertable=true, updatable=true, unique=false}
+10:33:06.314 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [element]
+10:33:06.314 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [element]
+10:33:06.314 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(player), mappingColumn=element, insertable=true, updatable=true, unique=false}
+10:33:06.314 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [decks_KEY]
+10:33:06.314 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(player), mappingColumn=decks_KEY, insertable=true, updatable=true, unique=false}
+10:33:06.314 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [decks_KEY]
+10:33:06.314 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: JoinColumn{logicalColumnName='decks_KEY', referencedColumn='null', mappedBy='null'}
+10:33:06.315 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+10:33:06.315 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+10:33:06.316 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Collection role: uc.seng301.cardbattler.asg3.model.Player.decks
+10:33:06.316 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property decks
+10:33:06.316 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading decks with none
+10:33:06.316 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Player.name
+10:33:06.316 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.316 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.316 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(player), mappingColumn=name, insertable=true, updatable=true, unique=false}
+10:33:06.316 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+10:33:06.316 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [uc.seng301.cardbattler.asg3.model.Player:name]
+10:33:06.316 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - building BasicValue for name
+10:33:06.316 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: player.name
+10:33:06.317 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.317 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.317 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.317 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property name
+10:33:06.317 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading name with null
+10:33:06.318 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Binding entity from annotated class: uc.seng301.cardbattler.asg3.model.Deck
+10:33:06.318 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [DTYPE]
+10:33:06.318 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+10:33:06.319 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Deck
+10:33:06.319 [main] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: Deck -> uc.seng301.cardbattler.asg3.model.Deck
+10:33:06.319 [main] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: uc.seng301.cardbattler.asg3.model.Deck -> uc.seng301.cardbattler.asg3.model.Deck
+10:33:06.319 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [deck]
+10:33:06.319 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [deck]
+10:33:06.319 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity uc.seng301.cardbattler.asg3.model.Deck on table deck
+10:33:06.319 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Deck.deckId
+10:33:06.319 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_deck]
+10:33:06.320 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_deck]
+10:33:06.320 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(deck), mappingColumn=id_deck, insertable=true, updatable=true, unique=false}
+10:33:06.320 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [uc.seng301.cardbattler.asg3.model.Deck] is safe
+10:33:06.320 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : uc.seng301.cardbattler.asg3.model.Deck
+10:33:06.320 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property deckId with lazy=false
+10:33:06.320 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [uc.seng301.cardbattler.asg3.model.Deck:deckId]
+10:33:06.320 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - building BasicValue for deckId
+10:33:06.320 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: deck.id_deck
+10:33:06.320 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_deck]
+10:33:06.320 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property deckId
+10:33:06.320 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading deckId with null
+10:33:06.320 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(BasicValue([Column(id_deck)]), deckId, org.hibernate.id.enhanced.SequenceStyleGenerator, , ...)
+10:33:06.320 [main] TRACE org.hibernate.cfg.AnnotationBinder - Bind @Id on deckId
+10:33:06.320 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Deck.cards
+10:33:06.320 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_deck]
+10:33:06.320 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: JoinColumn{logicalColumnName='id_deck', referencedColumn='', mappedBy=''}
+10:33:06.320 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [cards]
+10:33:06.320 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [cards]
+10:33:06.320 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(deck), mappingColumn=cards, insertable=true, updatable=true, unique=false}
+10:33:06.320 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [cards_ORDER]
+10:33:06.320 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(deck), mappingColumn=cards_ORDER, insertable=true, updatable=true, unique=false}
+10:33:06.320 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [element]
+10:33:06.320 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [element]
+10:33:06.320 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(deck), mappingColumn=element, insertable=true, updatable=true, unique=false}
+10:33:06.321 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [cards_KEY]
+10:33:06.321 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(deck), mappingColumn=cards_KEY, insertable=true, updatable=true, unique=false}
+10:33:06.321 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [cards_KEY]
+10:33:06.321 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: JoinColumn{logicalColumnName='cards_KEY', referencedColumn='null', mappedBy='null'}
+10:33:06.321 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+10:33:06.321 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+10:33:06.321 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Collection role: uc.seng301.cardbattler.asg3.model.Deck.cards
+10:33:06.321 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property cards
+10:33:06.321 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading cards with none
+10:33:06.321 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Deck.name
+10:33:06.321 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.321 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.321 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(deck), mappingColumn=name, insertable=true, updatable=true, unique=false}
+10:33:06.321 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+10:33:06.321 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [uc.seng301.cardbattler.asg3.model.Deck:name]
+10:33:06.321 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - building BasicValue for name
+10:33:06.321 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: deck.name
+10:33:06.321 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.321 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.321 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.321 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property name
+10:33:06.321 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading name with null
+10:33:06.321 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Deck.player
+10:33:06.321 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_player]
+10:33:06.321 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: JoinColumn{logicalColumnName='id_player', referencedColumn='', mappedBy=''}
+10:33:06.321 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [player]
+10:33:06.321 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [player]
+10:33:06.321 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(deck), mappingColumn=player, insertable=true, updatable=true, unique=false}
+10:33:06.322 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property player
+10:33:06.322 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading player with none
+10:33:06.322 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Binding entity from annotated class: uc.seng301.cardbattler.asg3.model.Card
+10:33:06.323 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [card_type]
+10:33:06.323 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: DiscriminatorColumn{logicalColumnName'card_type', discriminatorTypeName='integer'}
+10:33:06.323 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name card
+10:33:06.323 [main] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: card -> uc.seng301.cardbattler.asg3.model.Card
+10:33:06.323 [main] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: uc.seng301.cardbattler.asg3.model.Card -> uc.seng301.cardbattler.asg3.model.Card
+10:33:06.323 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [card]
+10:33:06.323 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [card]
+10:33:06.323 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity uc.seng301.cardbattler.asg3.model.Card on table card
+10:33:06.323 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: card.card_type
+10:33:06.323 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [card_type]
+10:33:06.323 [main] TRACE org.hibernate.cfg.annotations.EntityBinder - Setting discriminator for entity uc.seng301.cardbattler.asg3.model.Card
+10:33:06.324 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Card.cardId
+10:33:06.324 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_card]
+10:33:06.324 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_card]
+10:33:06.324 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(card), mappingColumn=id_card, insertable=true, updatable=true, unique=false}
+10:33:06.324 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [uc.seng301.cardbattler.asg3.model.Card] is safe
+10:33:06.324 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : uc.seng301.cardbattler.asg3.model.Card
+10:33:06.324 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property cardId with lazy=false
+10:33:06.324 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [uc.seng301.cardbattler.asg3.model.Card:cardId]
+10:33:06.324 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - building BasicValue for cardId
+10:33:06.324 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: card.id_card
+10:33:06.324 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_card]
+10:33:06.324 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property cardId
+10:33:06.324 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading cardId with null
+10:33:06.324 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(BasicValue([Column(id_card)]), cardId, org.hibernate.id.enhanced.SequenceStyleGenerator, , ...)
+10:33:06.324 [main] TRACE org.hibernate.cfg.AnnotationBinder - Bind @Id on cardId
+10:33:06.325 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Card.description
+10:33:06.325 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [description]
+10:33:06.325 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [description]
+10:33:06.325 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(card), mappingColumn=description, insertable=true, updatable=true, unique=false}
+10:33:06.325 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property description with lazy=false
+10:33:06.325 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [uc.seng301.cardbattler.asg3.model.Card:description]
+10:33:06.325 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - building BasicValue for description
+10:33:06.325 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: card.description
+10:33:06.325 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [description]
+10:33:06.325 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [description]
+10:33:06.325 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [description]
+10:33:06.325 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property description
+10:33:06.325 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading description with null
+10:33:06.325 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Card.name
+10:33:06.325 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.325 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.325 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(card), mappingColumn=name, insertable=true, updatable=true, unique=false}
+10:33:06.325 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+10:33:06.325 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [uc.seng301.cardbattler.asg3.model.Card:name]
+10:33:06.325 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - building BasicValue for name
+10:33:06.325 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: card.name
+10:33:06.325 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.325 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.325 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [name]
+10:33:06.325 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property name
+10:33:06.325 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading name with null
+10:33:06.325 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Binding entity from annotated class: uc.seng301.cardbattler.asg3.model.Monster
+10:33:06.326 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Monster
+10:33:06.326 [main] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: Monster -> uc.seng301.cardbattler.asg3.model.Monster
+10:33:06.326 [main] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: uc.seng301.cardbattler.asg3.model.Monster -> uc.seng301.cardbattler.asg3.model.Monster
+10:33:06.326 [main] WARN  org.hibernate.cfg.annotations.EntityBinder - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: uc.seng301.cardbattler.asg3.model.Monster
+10:33:06.326 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [card]
+10:33:06.329 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Monster.attack
+10:33:06.329 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [attack]
+10:33:06.329 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [attack]
+10:33:06.329 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(card), mappingColumn=attack, insertable=true, updatable=true, unique=false}
+10:33:06.329 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property attack with lazy=false
+10:33:06.329 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [uc.seng301.cardbattler.asg3.model.Monster:attack]
+10:33:06.329 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - building BasicValue for attack
+10:33:06.329 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: card.attack
+10:33:06.329 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [attack]
+10:33:06.329 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [attack]
+10:33:06.329 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [attack]
+10:33:06.329 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property attack
+10:33:06.329 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading attack with null
+10:33:06.329 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Monster.cardPosition
+10:33:06.329 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [cardPosition]
+10:33:06.329 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [cardPosition]
+10:33:06.329 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(card), mappingColumn=cardPosition, insertable=true, updatable=true, unique=false}
+10:33:06.329 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property cardPosition with lazy=false
+10:33:06.329 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [uc.seng301.cardbattler.asg3.model.Monster:cardPosition]
+10:33:06.329 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - building BasicValue for cardPosition
+10:33:06.329 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: card.cardPosition
+10:33:06.329 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [cardPosition]
+10:33:06.329 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [cardPosition]
+10:33:06.329 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [cardPosition]
+10:33:06.329 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property cardPosition
+10:33:06.329 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading cardPosition with null
+10:33:06.329 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Monster.defence
+10:33:06.329 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [defence]
+10:33:06.329 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [defence]
+10:33:06.329 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(card), mappingColumn=defence, insertable=true, updatable=true, unique=false}
+10:33:06.329 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property defence with lazy=false
+10:33:06.329 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [uc.seng301.cardbattler.asg3.model.Monster:defence]
+10:33:06.330 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - building BasicValue for defence
+10:33:06.330 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: card.defence
+10:33:06.330 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [defence]
+10:33:06.330 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [defence]
+10:33:06.330 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [defence]
+10:33:06.330 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property defence
+10:33:06.330 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading defence with null
+10:33:06.330 [main] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of uc.seng301.cardbattler.asg3.model.Monster.life
+10:33:06.330 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [life]
+10:33:06.330 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [life]
+10:33:06.330 [main] DEBUG org.hibernate.cfg.AnnotatedColumn - Binding column: Column{table=Table(card), mappingColumn=life, insertable=true, updatable=true, unique=false}
+10:33:06.330 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property life with lazy=false
+10:33:06.330 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [uc.seng301.cardbattler.asg3.model.Monster:life]
+10:33:06.330 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - building BasicValue for life
+10:33:06.330 [main] DEBUG org.hibernate.mapping.BasicValue - Skipping column re-registration: card.life
+10:33:06.330 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [life]
+10:33:06.330 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [life]
+10:33:06.330 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [life]
+10:33:06.330 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property life
+10:33:06.330 [main] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading life with null
+10:33:06.330 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Binding entity from annotated class: uc.seng301.cardbattler.asg3.model.Spell
+10:33:06.330 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Spell
+10:33:06.330 [main] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: Spell -> uc.seng301.cardbattler.asg3.model.Spell
+10:33:06.330 [main] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: uc.seng301.cardbattler.asg3.model.Spell -> uc.seng301.cardbattler.asg3.model.Spell
+10:33:06.330 [main] WARN  org.hibernate.cfg.annotations.EntityBinder - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: uc.seng301.cardbattler.asg3.model.Spell
+10:33:06.330 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [card]
+10:33:06.331 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Binding entity from annotated class: uc.seng301.cardbattler.asg3.model.Trap
+10:33:06.331 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Trap
+10:33:06.331 [main] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: Trap -> uc.seng301.cardbattler.asg3.model.Trap
+10:33:06.331 [main] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: uc.seng301.cardbattler.asg3.model.Trap -> uc.seng301.cardbattler.asg3.model.Trap
+10:33:06.331 [main] WARN  org.hibernate.cfg.annotations.EntityBinder - HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: uc.seng301.cardbattler.asg3.model.Trap
+10:33:06.331 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [card]
+10:33:06.331 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for playerId
+10:33:06.332 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for name
+10:33:06.332 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for deckId
+10:33:06.332 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for name
+10:33:06.332 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for cardId
+10:33:06.332 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for description
+10:33:06.332 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for name
+10:33:06.332 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for attack
+10:33:06.332 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for cardPosition
+10:33:06.332 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for defence
+10:33:06.332 [main] DEBUG org.hibernate.cfg.annotations.BasicValueBinder - Starting `BasicValueBinder#fillSimpleValue` for life
+10:33:06.333 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_player]
+10:33:06.333 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+10:33:06.333 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_player]
+10:33:06.333 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_player]
+10:33:06.335 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id_player] to be non-null as it is part of the primary key for table [player]
+10:33:06.335 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id_deck] to be non-null as it is part of the primary key for table [deck]
+10:33:06.335 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id_card] to be non-null as it is part of the primary key for table [card]
+10:33:06.335 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Second pass for collection: uc.seng301.cardbattler.asg3.model.Deck.cards
+10:33:06.335 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Binding a OneToMany: uc.seng301.cardbattler.asg3.model.Deck.cards through a foreign key
+10:33:06.335 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: uc.seng301.cardbattler.asg3.model.Deck.cards -> card
+10:33:06.335 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_deck]
+10:33:06.335 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+10:33:06.335 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_deck]
+10:33:06.335 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_deck]
+10:33:06.335 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Mapped collection key: id_deck, one-to-many: uc.seng301.cardbattler.asg3.model.Card
+10:33:06.335 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Second pass for collection: uc.seng301.cardbattler.asg3.model.Player.decks
+10:33:06.335 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Binding a OneToMany: uc.seng301.cardbattler.asg3.model.Player.decks through a foreign key
+10:33:06.336 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: uc.seng301.cardbattler.asg3.model.Player.decks -> deck
+10:33:06.336 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_player]
+10:33:06.336 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+10:33:06.336 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_player]
+10:33:06.336 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_player]
+10:33:06.336 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Mapped collection key: id_player, one-to-many: uc.seng301.cardbattler.asg3.model.Deck
+10:33:06.337 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: uc.seng301.cardbattler.asg3.model.Deck
+10:33:06.337 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_deck]
+10:33:06.338 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [FK68291hjvhvtkbd15rlyvvv0px]
+10:33:06.338 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: uc.seng301.cardbattler.asg3.model.Player
+10:33:06.338 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_player]
+10:33:06.338 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [FKnrosrfau47vmes16mysacb43u]
+10:33:06.342 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: uc.seng301.cardbattler.asg3.model.Deck
+10:33:06.342 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_deck]
+10:33:06.343 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: uc.seng301.cardbattler.asg3.model.Player
+10:33:06.343 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id_player]
+10:33:06.343 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+10:33:06.343 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+10:33:06.344 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [deck_SEQ]
+10:33:06.346 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [next_val]
+10:33:06.347 [main] TRACE org.hibernate.id.enhanced.PooledOptimizer - Creating pooled optimizer with [incrementSize=50; returnClass=java.lang.Long]
+10:33:06.347 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+10:33:06.347 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+10:33:06.347 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [player_SEQ]
+10:33:06.347 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [next_val]
+10:33:06.347 [main] TRACE org.hibernate.id.enhanced.PooledOptimizer - Creating pooled optimizer with [incrementSize=50; returnClass=java.lang.Long]
+10:33:06.348 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+10:33:06.348 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+10:33:06.348 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [card_SEQ]
+10:33:06.348 [main] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [next_val]
+10:33:06.348 [main] TRACE org.hibernate.id.enhanced.PooledOptimizer - Creating pooled optimizer with [incrementSize=50; returnClass=java.lang.Long]
+10:33:06.348 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.boot.spi.SessionFactoryBuilderService]
+10:33:06.397 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider]
+10:33:06.397 [main] TRACE org.hibernate.loader.BatchFetchStyle - Interpreting BatchFetchStyle from setting : null
+10:33:06.398 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder]
+10:33:06.399 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.bytecode.spi.BytecodeProvider]
+10:33:06.403 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Building session factory
+10:33:06.403 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
+10:33:06.405 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [uc.seng301.cardbattler.asg3.model.Trap] is safe
+10:33:06.405 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : uc.seng301.cardbattler.asg3.model.Trap
+10:33:06.405 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [uc.seng301.cardbattler.asg3.model.Spell] is safe
+10:33:06.405 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : uc.seng301.cardbattler.asg3.model.Spell
+10:33:06.405 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [uc.seng301.cardbattler.asg3.model.Monster] is safe
+10:33:06.405 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : uc.seng301.cardbattler.asg3.model.Monster
+10:33:06.419 [main] DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+10:33:06.420 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.cache.spi.CacheImplementor]
+10:33:06.421 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+10:33:06.421 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiating session factory with properties: {java.specification.version=17, sun.jnu.encoding=UTF-8, hibernate.dialect=org.hibernate.community.dialect.SQLiteDialect, java.class.path=/csse/users/hav13/University/SENG301/uc-seng301-cardbattler-asg3/app/build/classes/java/main:/csse/users/hav13/University/SENG301/uc-seng301-cardbattler-asg3/app/build/resources/main:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/30.1.1-jre/87e0fd1df874ea3cbe577702fe6f17068b790fd8/guava-30.1.1-jre.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.40.1.0/4e77207cd5a1c3ee00e287b7792683463dc50570/sqlite-jdbc-3.40.1.0.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.hibernate.orm/hibernate-community-dialects/6.1.7.Final/a103b43c7c0b4668cbcf04c49cb1ad1db9b9bf41/hibernate-community-dialects-6.1.7.Final.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/com.h2database/h2/2.1.214/d5c2005c9e3279201e12d4776c948578b16bf8b2/h2-2.1.214.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.17.0/fe6e7a32c1228884b9691a744f953a55d0dd8ead/log4j-core-2.17.0.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.12.2/a770cc4c0a1fb0bfd8a150a6a0004e42bc99fca/jackson-annotations-2.12.2.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.12.2/5f9d79e09ebf5d54a46e9f4543924cf7ae7654e0/jackson-databind-2.12.2.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.12.2/8df50138521d05561a308ec2799cc8dda20c06df/jackson-core-2.12.2.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/5.2.0/bc22d2ee9596a5fd2d9f9f7c49599f71aac5a88a/mockito-core-5.2.0.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.8.0/6b83e4a33220272c3a08991498ba9dc09519f190/checker-qual-3.8.0.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.5.1/562d366678b89ce5d6b6b82c1a073880341e3fba/error_prone_annotations-2.5.1.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.hibernate.orm/hibernate-core/6.1.7.Final/343f47b34c96fe9c44bf9b219a7b3c5d6d2fc90e/hibernate-core-6.1.7.Final.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.4.3.Final/c4bd7e12a745c0e7f6cf98c45cdcdf482fd827ea/jboss-logging-3.4.3.Final.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.17.0/bbd791e9c8c9421e45337c4fe0a10851c086e36c/log4j-api-2.17.0.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.14.1/ecfcdb4726ccb4f51cbfd1ac2eb4118099529370/byte-buddy-1.14.1.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.1/198d511e34875f37b027ba4758229a67a8a2e5af/byte-buddy-agent-1.14.1.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.3/1049c09f1de4331e8193e579448d0916d75b7631/objenesis-3.3.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/3.0.0/affc7884a85b6876d438a88b5d21ea29b1cc2dd8/jakarta.persistence-api-3.0.0.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/jakarta.transaction/jakarta.transaction-api/2.0.0/24a0525b4acfbca4086d2f1278be3a084fe1c67d/jakarta.transaction-api-2.0.0.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/6.0.6.Final/77a5f94b56d49508e0ee334751db5b78e5ccd50c/hibernate-commons-annotations-6.0.6.Final.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.4.2.Final/1e1c385990b258ff1a24c801e84aebbacf70eb39/jandex-2.4.2.Final.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.5.1/3fe0bed568c62df5e89f4f174c101eab25345b6c/classmate-1.5.1.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/3.0.2/9897322f5de201bfbfcd1f4f46ffdd4204673b3c/jaxb-runtime-3.0.2.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-core/3.0.2/e83d0b0005525ddd8b8642bd0bb02227fcf871f1/jaxb-core-3.0.2.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/3.0.1/5257932df36ff3e4e6de50429dde946490a6a800/jakarta.xml.bind-api-3.0.1.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.0/46fc8560b6fd17b78396d88f39c1a730457671f0/jakarta.inject-api-2.0.0.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.10.1/10839f875928f59c622d675091d51a43ea0dc5f7/antlr4-runtime-4.10.1.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/2.0.1/828b80e886a52bb09fe41ff410b10b342f533ce1/jakarta.activation-2.0.1.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/3.0.2/8c448a44cdcdbb5dd48ff2eb88cab858ed52cf91/txw2-3.0.2.jar:/csse/users/hav13/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/4.0.1/4e25c41d338aad4a2c92d0020c9ae0335fad5099/istack-commons-runtime-4.0.1.jar, java.vm.vendor=Private Build, sun.arch.data.model=64, user.variant=, java.vendor.url=Unknown, user.timezone=Pacific/Auckland, java.vm.specification.version=17, os.name=Linux, user.country=NZ, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=/usr/lib/jvm/java-17-openjdk-amd64/lib, sun.java.command=uc.seng301.cardbattler.asg3.App, jdk.debug=release, sun.cpu.endian=little, user.home=/csse/users/hav13, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2023-01-17, java.home=/usr/lib/jvm/java-17-openjdk-amd64, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.hbm2ddl.auto=create, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.6+10-Ubuntu-0ubuntu122.04, user.name=hav13, path.separator=:, os.version=5.15.0-56-generic, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:sqlite:asg3.sqlite, file.encoding=UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=false, show_sql=false, hibernate.connection.driver_class=org.sqlite.JDBC, java.vendor.url.bug=Unknown, java.io.tmpdir=/tmp, java.version=17.0.6, user.dir=/csse/users/hav13/University/SENG301/uc-seng301-cardbattler-asg3/app, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, connection.driver_class=org.sqlite.JDBC, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@17dd671f, native.encoding=UTF-8, java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor=Private Build, java.vm.info=mixed mode, sharing, java.vm.version=17.0.6+10-Ubuntu-0ubuntu122.04, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, connection.url=jdbc:sqlite:asg3.sqlite, java.class.version=61.0}
+10:33:06.422 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiated session factory
+10:33:06.426 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.query.spi.NativeQueryInterpreter]
+10:33:06.427 [main] DEBUG org.hibernate.orm.query.plan.cache - Starting QueryPlanCache(2048)
+10:33:06.446 [main] TRACE org.hibernate.query.sqm.function.SqmFunctionRegistry - SqmFunctionRegistry created
+10:33:06.452 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(max)] under max; prior registration was null
+10:33:06.452 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(min)] under min; prior registration was null
+10:33:06.452 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sum)] under sum; prior registration was null
+10:33:06.452 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(avg)] under avg; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CountFunction@1b6924cb] under count; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.EveryAnyEmulation@280d4882] under every; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.EveryAnyEmulation@44af588b] under any; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(round)] under round; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(floor)] under floor; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ceiling)] under ceiling; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(mod)] under mod; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(abs)] under abs; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sign)] under sign; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sqrt)] under sqrt; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ln)] under ln; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(exp)] under exp; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(power)] under power; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(sin)] under sin; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(cos)] under cos; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(tan)] under tan; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(asin)] under asin; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(acos)] under acos; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(atan)] under atan; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(atan2)] under atan2; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(coalesce)] under coalesce; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(nullif)] under nullif; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(left)] under left; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(right)] under right; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(replace)] under replace; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(concat)] under concat; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lower)] under lower; prior registration was null
+10:33:06.453 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(upper)] under upper; prior registration was null
+10:33:06.454 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substring)] under substring; prior registration was null
+10:33:06.454 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(locate)] under locate; prior registration was null
+10:33:06.454 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(character_length)] under character_length; prior registration was null
+10:33:06.454 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : length -> character_length
+10:33:06.454 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LocatePositionEmulation@1e3e1014] under position; prior registration was null
+10:33:06.454 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.InsertSubstringOverlayEmulation@36aa52d2] under overlay; prior registration was null
+10:33:06.454 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TrimFunction@6f798482] under trim; prior registration was null
+10:33:06.454 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CastFunction@5ceecfee] under cast; prior registration was null
+10:33:06.455 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@765d55d5] under collate; prior registration was null
+10:33:06.455 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.ExtractFunction@6fc1020a] under extract; prior registration was null
+10:33:06.455 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(least)] under least; prior registration was null
+10:33:06.455 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(greatest)] under greatest; prior registration was null
+10:33:06.455 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CoalesceIfnullEmulation@42a0501e] under ifnull; prior registration was null
+10:33:06.455 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lpad)] under lpad; prior registration was null
+10:33:06.455 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rpad)] under rpad; prior registration was null
+10:33:06.456 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.LpadRpadPadEmulation@3d1f558a] under pad; prior registration was null
+10:33:06.456 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CastStrEmulation@6ca8fcf3] under str; prior registration was null
+10:33:06.456 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.FormatFunction@177c41d7] under format; prior registration was null
+10:33:06.456 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TimestampaddFunction@d2291de] under timestampadd; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.TimestampdiffFunction@1fc713c9] under timestampdiff; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : dateadd -> timestampadd
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : datediff -> timestampdiff
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@6a12c7a8] under current_date; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@161aa04a] under current_time; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@436bd4df] under current_timestamp; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : current date -> current_date
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : current time -> current_time
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : current timestamp -> current_timestamp
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@6848a051] under local_date; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@149b0577] under local_time; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@5740ff5e] under local_datetime; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@4a901445] under offset_datetime; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : local date -> local_date
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : local time -> local_time
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : local datetime -> local_datetime
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : offset datetime -> offset_datetime
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.CurrentFunction@67f77f6e] under instant; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : current_instant -> instant
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.SqlFunction@6dc9da2d] under sql; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@1d408060] under mod; prior registration was NamedSqmFunctionTemplate(mod)
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@68a78f3c] under left; prior registration was NamedSqmFunctionTemplate(left)
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@17ba57f0] under right; prior registration was NamedSqmFunctionTemplate(right)
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.PatternBasedSqmFunctionDescriptor@3481ff98] under concat; prior registration was NamedSqmFunctionTemplate(concat)
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(length)] under length; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : character_length -> length
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(min)] under least; prior registration was NamedSqmFunctionTemplate(least)
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(max)] under greatest; prior registration was NamedSqmFunctionTemplate(greatest)
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(radians)] under radians; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(degrees)] under degrees; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(trunc)] under trunc; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(log)] under log; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(ltrim)] under ltrim; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(rtrim)] under rtrim; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substr)] under substr; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(substr)] under substring; prior registration was NamedSqmFunctionTemplate(substring)
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(char)] under char; prior registration was null
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registering alternate key : chr -> char
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@7d70638] under locate; prior registration was NamedSqmFunctionTemplate(locate)
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@732f6050] under lpad; prior registration was NamedSqmFunctionTemplate(lpad)
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.query.sqm.function.MultipatternSqmFunctionDescriptor@6fbc1bb] under rpad; prior registration was NamedSqmFunctionTemplate(rpad)
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(strftime)] under format; prior registration was org.hibernate.dialect.function.FormatFunction@177c41d7
+10:33:06.457 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(row_number)] under row_number; prior registration was null
+10:33:06.458 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lag)] under lag; prior registration was null
+10:33:06.458 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(lead)] under lead; prior registration was null
+10:33:06.458 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(first_value)] under first_value; prior registration was null
+10:33:06.458 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(last_value)] under last_value; prior registration was null
+10:33:06.458 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [NamedSqmFunctionTemplate(nth_value)] under nth_value; prior registration was null
+10:33:06.458 [main] DEBUG org.hibernate.query.sqm.function.SqmFunctionRegistry - Registered SqmFunctionTemplate [org.hibernate.dialect.function.ListaggGroupConcatEmulation@6e3ecf5c] under listagg; prior registration was null
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - abs(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double acos(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean any(BOOLEAN arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double asin(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double atan(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double atan2(NUMERIC arg0, NUMERIC arg1)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double avg(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - cast(arg as Type)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - ceiling(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Character char(INTEGER arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer character_length(STRING_OR_CLOB arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - coalesce(arg0[, arg1[, ...]])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String collate(STRING string as COLLATION collation)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String concat(STRING string0[, STRING string1[, ...]])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double cos(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Long count([distinct ]{arg|*})
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Date current_date
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Time current_time
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp current_timestamp
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double degrees(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Boolean every(BOOLEAN arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double exp(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - extract(TEMPORAL_UNIT field from TEMPORAL arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - first_valueANY value
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - floor(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String format(TEMPORAL datetime as STRING pattern)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - greatest(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - ifnull(arg0, arg1)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Instant instant
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - lagANY value[, INTEGER offset[, ANY default]]
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - last_valueANY value
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - leadANY value[, INTEGER offset[, ANY default]]
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - least(COMPARABLE arg0, COMPARABLE arg1[, arg2[, ...]])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String left(STRING string, INTEGER length)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer length(STRING_OR_CLOB arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String listagg(STRING arg0, STRING arg1)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double ln(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDate local_date
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDateTime local_datetime
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalTime local_time
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer locate(pattern, string[, start])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double log(NUMERIC arg0[, NUMERIC arg1])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String lower(STRING string)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String lpad(string, length[, padding])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String ltrim(STRING string[, STRING characters])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - max(COMPARABLE arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - min(COMPARABLE arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer mod(INTEGER arg0, INTEGER arg1)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - nth_valueANY value, INTEGER nth
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - nullif(arg0, arg1)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - OffsetDateTime offset_datetime
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String overlay(STRING string placing STRING replacement from INTEGER start[ for INTEGER length])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String pad(STRING string with INTEGER length {leading|trailing}[ STRING character])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer position(STRING pattern in STRING string)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double power(NUMERIC arg0, NUMERIC arg1)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double radians(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String replace(STRING string, STRING pattern, STRING replacement)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String right(STRING string, INTEGER length)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - round(NUMERIC arg0, INTEGER arg1)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Long row_number()
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String rpad(string, length[, padding])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String rtrim(STRING string[, STRING characters])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer sign(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double sin(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Object sql
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double sqrt(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String str(arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String substr(STRING string, INTEGER start[, INTEGER length])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String substring(STRING string{ from|,} INTEGER start[{ for|,} INTEGER length])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - sum(arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double tan(NUMERIC arg)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - timestampadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - basicType@4(java.lang.Long,-5)|basicType@15(java.lang.Double,6) timestampdiff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String trim([[{leading|trailing|both} ][STRING arg0 ]from] STRING arg1)
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Double trunc(NUMERIC number[, INTEGER places])
+10:33:06.460 [main] DEBUG org.hibernate.HQL_FUNCTIONS - String upper(STRING string)
+10:33:06.461 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Integer character_length(STRING_OR_CLOB arg)
+10:33:06.461 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Character chr(INTEGER arg)
+10:33:06.461 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Date current date
+10:33:06.461 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Time current time
+10:33:06.461 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Timestamp current timestamp
+10:33:06.461 [main] DEBUG org.hibernate.HQL_FUNCTIONS - Instant current_instant
+10:33:06.461 [main] DEBUG org.hibernate.HQL_FUNCTIONS - dateadd(TEMPORAL_UNIT field, INTEGER magnitude, TEMPORAL datetime)
+10:33:06.461 [main] DEBUG org.hibernate.HQL_FUNCTIONS - basicType@4(java.lang.Long,-5)|basicType@15(java.lang.Double,6) datediff(TEMPORAL_UNIT field, TEMPORAL start, TEMPORAL end)
+10:33:06.461 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDate local date
+10:33:06.461 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalDateTime local datetime
+10:33:06.461 [main] DEBUG org.hibernate.HQL_FUNCTIONS - LocalTime local time
+10:33:06.461 [main] DEBUG org.hibernate.HQL_FUNCTIONS - OffsetDateTime offset datetime
+10:33:06.461 [main] DEBUG org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@67403656] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@5a8c93]
+10:33:06.467 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.persister.spi.PersisterFactory]
+10:33:06.468 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.persister.spi.PersisterClassResolver]
+10:33:06.487 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [uc.seng301.cardbattler.asg3.model.Trap] is safe
+10:33:06.487 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : uc.seng301.cardbattler.asg3.model.Trap
+10:33:06.488 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.property.access.spi.PropertyAccessStrategyResolver]
+10:33:06.561 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [description], existing type = [basicType@5(java.lang.String,12)], incoming type = [basicType@5(java.lang.String,12)]
+10:33:06.561 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [name], existing type = [basicType@5(java.lang.String,12)], incoming type = [basicType@5(java.lang.String,12)]
+10:33:06.562 [main] DEBUG org.hibernate.ormbytecode.interceptor - To-one property `uc.seng301.cardbattler.asg3.model.Deck#player` was mapped with LAZY + NO_PROXY but the class was not enhanced
+10:33:06.562 [main] DEBUG org.hibernate.ormbytecode.interceptor - To-one property `uc.seng301.cardbattler.asg3.model.Deck#player` was mapped with LAZY + NO_PROXY but the class was not enhanced
+10:33:06.562 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [uc.seng301.cardbattler.asg3.model.Deck] is safe
+10:33:06.562 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : uc.seng301.cardbattler.asg3.model.Deck
+10:33:06.570 [main] DEBUG org.hibernate.ormbytecode.interceptor - To-one property `uc.seng301.cardbattler.asg3.model.Deck#player` was mapped with LAZY + NO_PROXY but the class was not enhanced
+10:33:06.570 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [player.id], existing type = [basicType@4(java.lang.Long,-5)], incoming type = [basicType@4(java.lang.Long,-5)]
+10:33:06.570 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [player.playerId], existing type = [basicType@4(java.lang.Long,-5)], incoming type = [basicType@4(java.lang.Long,-5)]
+10:33:06.570 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [cards], existing type = [org.hibernate.type.BagType(uc.seng301.cardbattler.asg3.model.Deck.cards)], incoming type = [org.hibernate.type.BagType(uc.seng301.cardbattler.asg3.model.Deck.cards)]
+10:33:06.571 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [name], existing type = [basicType@5(java.lang.String,12)], incoming type = [basicType@5(java.lang.String,12)]
+10:33:06.571 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [player], existing type = [org.hibernate.type.ManyToOneType(uc.seng301.cardbattler.asg3.model.Player)], incoming type = [org.hibernate.type.ManyToOneType(uc.seng301.cardbattler.asg3.model.Player)]
+10:33:06.571 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [player.id], existing type = [basicType@4(java.lang.Long,-5)], incoming type = [basicType@4(java.lang.Long,-5)]
+10:33:06.571 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [player.id], existing type = [basicType@4(java.lang.Long,-5)], incoming type = [basicType@4(java.lang.Long,-5)]
+10:33:06.571 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [player.playerId], existing type = [basicType@4(java.lang.Long,-5)], incoming type = [basicType@4(java.lang.Long,-5)]
+10:33:06.571 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [player.playerId], existing type = [basicType@4(java.lang.Long,-5)], incoming type = [basicType@4(java.lang.Long,-5)]
+10:33:06.571 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [uc.seng301.cardbattler.asg3.model.Player] is safe
+10:33:06.571 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : uc.seng301.cardbattler.asg3.model.Player
+10:33:06.575 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [decks], existing type = [org.hibernate.type.BagType(uc.seng301.cardbattler.asg3.model.Player.decks)], incoming type = [org.hibernate.type.BagType(uc.seng301.cardbattler.asg3.model.Player.decks)]
+10:33:06.575 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [name], existing type = [basicType@5(java.lang.String,12)], incoming type = [basicType@5(java.lang.String,12)]
+10:33:06.575 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [uc.seng301.cardbattler.asg3.model.Spell] is safe
+10:33:06.575 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : uc.seng301.cardbattler.asg3.model.Spell
+10:33:06.580 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [description], existing type = [basicType@5(java.lang.String,12)], incoming type = [basicType@5(java.lang.String,12)]
+10:33:06.580 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [name], existing type = [basicType@5(java.lang.String,12)], incoming type = [basicType@5(java.lang.String,12)]
+10:33:06.580 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [uc.seng301.cardbattler.asg3.model.Card] is safe
+10:33:06.580 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : uc.seng301.cardbattler.asg3.model.Card
+10:33:06.580 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [uc.seng301.cardbattler.asg3.model.Monster] is safe
+10:33:06.580 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : uc.seng301.cardbattler.asg3.model.Monster
+10:33:06.583 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [description], existing type = [basicType@5(java.lang.String,12)], incoming type = [basicType@5(java.lang.String,12)]
+10:33:06.583 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [name], existing type = [basicType@5(java.lang.String,12)], incoming type = [basicType@5(java.lang.String,12)]
+10:33:06.584 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [attack], existing type = [basicType@3(java.lang.Integer,4)], incoming type = [basicType@3(java.lang.Integer,4)]
+10:33:06.584 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [cardPosition], existing type = [org.hibernate.type.CustomType@787e4357], incoming type = [org.hibernate.type.CustomType@787e4357]
+10:33:06.584 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [defence], existing type = [basicType@3(java.lang.Integer,4)], incoming type = [basicType@3(java.lang.Integer,4)]
+10:33:06.584 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [life], existing type = [basicType@3(java.lang.Integer,4)], incoming type = [basicType@3(java.lang.Integer,4)]
+10:33:06.588 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [description], existing type = [basicType@5(java.lang.String,12)], incoming type = [basicType@5(java.lang.String,12)]
+10:33:06.588 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [name], existing type = [basicType@5(java.lang.String,12)], incoming type = [basicType@5(java.lang.String,12)]
+10:33:06.588 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [attack], existing type = [basicType@3(java.lang.Integer,4)], incoming type = [basicType@3(java.lang.Integer,4)]
+10:33:06.588 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [cardPosition], existing type = [org.hibernate.type.CustomType@787e4357], incoming type = [org.hibernate.type.CustomType@787e4357]
+10:33:06.588 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [defence], existing type = [basicType@3(java.lang.Integer,4)], incoming type = [basicType@3(java.lang.Integer,4)]
+10:33:06.588 [main] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [life], existing type = [basicType@3(java.lang.Integer,4)], incoming type = [basicType@3(java.lang.Integer,4)]
+10:33:06.592 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister - Static SQL for collection: uc.seng301.cardbattler.asg3.model.Player.decks
+10:33:06.592 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row insert: update deck set id_player=? where id_deck=?
+10:33:06.592 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row update: update deck set  where id_deck=?
+10:33:06.592 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row delete: update deck set id_player=null where id_player=? and id_deck=?
+10:33:06.592 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  One-shot delete: update deck set id_player=null where id_player=?
+10:33:06.593 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister - Static SQL for collection: uc.seng301.cardbattler.asg3.model.Deck.cards
+10:33:06.593 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row insert: update card set id_deck=? where id_card=?
+10:33:06.593 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row update: update card set  where id_card=?
+10:33:06.593 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row delete: update card set id_deck=null where id_deck=? and id_card=?
+10:33:06.593 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  One-shot delete: update card set id_deck=null where id_deck=?
+10:33:06.603 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting post-init callbacks
+10:33:06.603 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(uc.seng301.cardbattler.asg3.model.Card) `staticFetchableList` generator
+10:33:06.603 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(uc.seng301.cardbattler.asg3.model.Card) `sqmMultiTableInsertStrategy` interpretation
+10:33:06.607 [main] DEBUG org.hibernate.query.sqm.mutation.internal.temptable.PersistentTableStrategy - Creating persistent ID table : HTE_card
+10:33:06.622 [main] DEBUG org.hibernate.dialect.temptable.TemporaryTableHelper - unable to create temporary table [HTE_card]; `create table HTE_card(id_card bigint, card_type TINYINT(1) not null, description varchar(255), name varchar(255), attack integer, cardPosition smallint, defence integer, life integer, rn_ integer not null, hib_sess_id char(36) not null, primary key (rn_, hib_sess_id))` failed : [SQLITE_ERROR] SQL error or missing database (table HTE_card already exists)
+10:33:06.622 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(uc.seng301.cardbattler.asg3.model.Trap) `staticFetchableList` generator
+10:33:06.622 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(uc.seng301.cardbattler.asg3.model.Trap) `sqmMultiTableInsertStrategy` interpretation
+10:33:06.622 [main] DEBUG org.hibernate.query.sqm.mutation.internal.temptable.PersistentTableStrategy - Creating persistent ID table : HTE_card2
+10:33:06.628 [main] DEBUG org.hibernate.dialect.temptable.TemporaryTableHelper - unable to create temporary table [HTE_card2]; `create table HTE_card2(id_card bigint, card_type TINYINT(1) not null, description varchar(255), name varchar(255), rn_ integer not null, hib_sess_id char(36) not null, primary key (rn_, hib_sess_id))` failed : [SQLITE_ERROR] SQL error or missing database (table HTE_card2 already exists)
+10:33:06.628 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping( NavigableRole[uc.seng301.cardbattler.asg3.model.Deck.cards#{element}]) - index descriptor
+10:33:06.629 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping(uc.seng301.cardbattler.asg3.model.Deck.cards)#finishInitialization
+10:33:06.629 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping(uc.seng301.cardbattler.asg3.model.Deck.cards) - key descriptor
+10:33:06.629 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : To-one key - NavigableRole[uc.seng301.cardbattler.asg3.model.Deck.player]
+10:33:06.629 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(uc.seng301.cardbattler.asg3.model.Deck) `staticFetchableList` generator
+10:33:06.629 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(uc.seng301.cardbattler.asg3.model.Deck) `sqmMultiTableInsertStrategy` interpretation
+10:33:06.629 [main] DEBUG org.hibernate.query.sqm.mutation.internal.temptable.PersistentTableStrategy - Creating persistent ID table : HTE_deck
+10:33:06.634 [main] DEBUG org.hibernate.dialect.temptable.TemporaryTableHelper - unable to create temporary table [HTE_deck]; `create table HTE_deck(id_deck bigint, name varchar(255), id_player bigint, rn_ integer not null, hib_sess_id char(36) not null, primary key (rn_, hib_sess_id))` failed : [SQLITE_ERROR] SQL error or missing database (table HTE_deck already exists)
+10:33:06.634 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping( NavigableRole[uc.seng301.cardbattler.asg3.model.Player.decks#{element}]) - index descriptor
+10:33:06.634 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping(uc.seng301.cardbattler.asg3.model.Player.decks)#finishInitialization
+10:33:06.634 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : PluralAttributeMapping(uc.seng301.cardbattler.asg3.model.Player.decks) - key descriptor
+10:33:06.634 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(uc.seng301.cardbattler.asg3.model.Player) `staticFetchableList` generator
+10:33:06.634 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(uc.seng301.cardbattler.asg3.model.Player) `sqmMultiTableInsertStrategy` interpretation
+10:33:06.635 [main] DEBUG org.hibernate.query.sqm.mutation.internal.temptable.PersistentTableStrategy - Creating persistent ID table : HTE_player
+10:33:06.640 [main] DEBUG org.hibernate.dialect.temptable.TemporaryTableHelper - unable to create temporary table [HTE_player]; `create table HTE_player(id_player bigint, name varchar(255), rn_ integer not null, hib_sess_id char(36) not null, primary key (rn_, hib_sess_id))` failed : [SQLITE_ERROR] SQL error or missing database (table HTE_player already exists)
+10:33:06.640 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(uc.seng301.cardbattler.asg3.model.Spell) `staticFetchableList` generator
+10:33:06.640 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(uc.seng301.cardbattler.asg3.model.Spell) `sqmMultiTableInsertStrategy` interpretation
+10:33:06.640 [main] DEBUG org.hibernate.query.sqm.mutation.internal.temptable.PersistentTableStrategy - Creating persistent ID table : HTE_card1
+10:33:06.646 [main] DEBUG org.hibernate.dialect.temptable.TemporaryTableHelper - unable to create temporary table [HTE_card1]; `create table HTE_card1(id_card bigint, card_type TINYINT(1) not null, description varchar(255), name varchar(255), rn_ integer not null, hib_sess_id char(36) not null, primary key (rn_, hib_sess_id))` failed : [SQLITE_ERROR] SQL error or missing database (table HTE_card1 already exists)
+10:33:06.646 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(uc.seng301.cardbattler.asg3.model.Monster) `staticFetchableList` generator
+10:33:06.646 [main] DEBUG org.hibernate.orm.model.mapping.creation - Starting PostInitCallbackEntry : Entity(uc.seng301.cardbattler.asg3.model.Monster) `sqmMultiTableInsertStrategy` interpretation
+10:33:06.646 [main] DEBUG org.hibernate.query.sqm.mutation.internal.temptable.PersistentTableStrategy - Creating persistent ID table : HTE_card0
+10:33:06.652 [main] DEBUG org.hibernate.dialect.temptable.TemporaryTableHelper - unable to create temporary table [HTE_card0]; `create table HTE_card0(id_card bigint, card_type TINYINT(1) not null, description varchar(255), name varchar(255), attack integer, cardPosition smallint, defence integer, life integer, rn_ integer not null, hib_sess_id char(36) not null, primary key (rn_, hib_sess_id))` failed : [SQLITE_ERROR] SQL error or missing database (table HTE_card0 already exists)
+10:33:06.653 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: uc.seng301.cardbattler.asg3.model.Trap
+10:33:06.653 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id_card from card where id_card =?
+10:33:06.653 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into card (description, name, card_type, id_card) values (?, ?, 3, ?)
+10:33:06.653 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update card set description=?, name=? where id_card=?
+10:33:06.653 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from card where id_card=?
+10:33:06.662 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : t1_0
+10:33:06.664 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(uc.seng301.cardbattler.asg3.model.Trap)] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Trap] for NavigablePath [uc.seng301.cardbattler.asg3.model.Trap] 
+10:33:06.666 [main] TRACE org.hibernate.loader.ast.internal.LoaderSelectBuilder - Starting visitation of FetchParent's Fetchables : uc.seng301.cardbattler.asg3.model.Trap
+10:33:06.675 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [uc.seng301.cardbattler.asg3.model.Trap]
+ |  +-BasicFetch [treat(uc.seng301.cardbattler.asg3.model.Trap as #uc.seng301.cardbattler.asg3.model.Card).description]
+ |  \-BasicFetch [treat(uc.seng301.cardbattler.asg3.model.Trap as #uc.seng301.cardbattler.asg3.model.Card).name]
+
+10:33:06.675 [main] TRACE org.hibernate.orm.results.graph.AST - Stack trace calling DomainResultGraphPrinter
+java.lang.Exception: null
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.visitDomainResults(DomainResultGraphPrinter.java:72) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:48) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:39) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translateSelect(AbstractSqlAstTranslator.java:704) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translate(AbstractSqlAstTranslator.java:645) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.<init>(SingleIdLoadPlan.java:67) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.createLoadPlan(SingleIdEntityLoaderStandardImpl.java:195) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.prepare(SingleIdEntityLoaderStandardImpl.java:54) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.prepareLoader(AbstractEntityPersister.java:4376) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.postInstantiate(AbstractEntityPersister.java:4368) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.finishInitialization(MappingMetamodelImpl.java:236) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.metamodel.internal.RuntimeMetamodelsImpl.finishInitialization(RuntimeMetamodelsImpl.java:60) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:311) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:754) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:773) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at uc.seng301.cardbattler.asg3.game.Game.<init>(Game.java:59) [main/:?]
+	at uc.seng301.cardbattler.asg3.App.main(App.java:21) [main/:?]
+10:33:06.682 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (t1 : uc.seng301.cardbattler.asg3.model.Trap) {
+          primaryTableReference : card as t1_0
+        }
+      }
+    }
+
+10:33:06.685 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: uc.seng301.cardbattler.asg3.model.Deck
+10:33:06.685 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id_deck from deck where id_deck =?
+10:33:06.685 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into deck (name, id_player, id_deck) values (?, ?, ?)
+10:33:06.685 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update deck set name=?, id_player=? where id_deck=?
+10:33:06.685 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from deck where id_deck=?
+10:33:06.685 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : d1_0
+10:33:06.685 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(uc.seng301.cardbattler.asg3.model.Deck)] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Deck] for NavigablePath [uc.seng301.cardbattler.asg3.model.Deck] 
+10:33:06.685 [main] TRACE org.hibernate.loader.ast.internal.LoaderSelectBuilder - Starting visitation of FetchParent's Fetchables : uc.seng301.cardbattler.asg3.model.Deck
+10:33:06.686 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : c1_0
+10:33:06.686 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [org.hibernate.sql.ast.tree.from.OneToManyTableGroup@7ab2a07e] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Deck.cards] for NavigablePath [uc.seng301.cardbattler.asg3.model.Deck.cards] 
+10:33:06.687 [main] TRACE org.hibernate.loader.ast.internal.LoaderSelectBuilder - Starting visitation of FetchParent's Fetchables : uc.seng301.cardbattler.asg3.model.Deck.cards
+10:33:06.687 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(uc.seng301.cardbattler.asg3.model.Deck.cards.{element})] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Deck.cards.{element}] for NavigablePath [uc.seng301.cardbattler.asg3.model.Deck.cards.{element}] 
+10:33:06.688 [main] TRACE org.hibernate.loader.ast.internal.LoaderSelectBuilder - Starting visitation of FetchParent's Fetchables : uc.seng301.cardbattler.asg3.model.Deck.cards.{element}
+10:33:06.690 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@374c40ba] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Deck.player] for NavigablePath [uc.seng301.cardbattler.asg3.model.Deck.player] 
+10:33:06.690 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : p1_0
+10:33:06.690 [main] TRACE org.hibernate.loader.ast.internal.LoaderSelectBuilder - Starting visitation of FetchParent's Fetchables : uc.seng301.cardbattler.asg3.model.Deck.player
+10:33:06.691 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [uc.seng301.cardbattler.asg3.model.Deck]
+ |  +-EagerCollectionFetch [uc.seng301.cardbattler.asg3.model.Deck.cards]
+ |  |  \-EntityFetchJoinedImpl [uc.seng301.cardbattler.asg3.model.Deck.cards.{element}]
+ |  +-BasicFetch [uc.seng301.cardbattler.asg3.model.Deck.name]
+ |  \-EntityFetchJoinedImpl [uc.seng301.cardbattler.asg3.model.Deck.player]
+
+10:33:06.691 [main] TRACE org.hibernate.orm.results.graph.AST - Stack trace calling DomainResultGraphPrinter
+java.lang.Exception: null
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.visitDomainResults(DomainResultGraphPrinter.java:72) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:48) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:39) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translateSelect(AbstractSqlAstTranslator.java:704) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translate(AbstractSqlAstTranslator.java:645) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.<init>(SingleIdLoadPlan.java:67) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.createLoadPlan(SingleIdEntityLoaderStandardImpl.java:195) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.prepare(SingleIdEntityLoaderStandardImpl.java:54) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.prepareLoader(AbstractEntityPersister.java:4376) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.postInstantiate(AbstractEntityPersister.java:4368) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.finishInitialization(MappingMetamodelImpl.java:236) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.metamodel.internal.RuntimeMetamodelsImpl.finishInitialization(RuntimeMetamodelsImpl.java:60) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:311) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:754) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:773) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at uc.seng301.cardbattler.asg3.game.Game.<init>(Game.java:59) [main/:?]
+	at uc.seng301.cardbattler.asg3.App.main(App.java:21) [main/:?]
+10:33:06.691 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (d1 : uc.seng301.cardbattler.asg3.model.Deck) {
+          primaryTableReference : deck as d1_0
+          TableGroupJoins {
+            left  join OneToManyTableGroup (c1 : uc.seng301.cardbattler.asg3.model.Deck.cards) {
+              primaryTableReference : card as c1_0
+            }
+            left  join LazyTableGroup (p1 : uc.seng301.cardbattler.asg3.model.Deck.player) {
+              primaryTableReference : player as p1_0
+            }
+          }
+        }
+      }
+    }
+
+10:33:06.691 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: uc.seng301.cardbattler.asg3.model.Player
+10:33:06.691 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id_player from player where id_player =?
+10:33:06.691 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into player (name, id_player) values (?, ?)
+10:33:06.691 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update player set name=? where id_player=?
+10:33:06.692 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from player where id_player=?
+10:33:06.692 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : p1_0
+10:33:06.692 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(uc.seng301.cardbattler.asg3.model.Player)] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Player] for NavigablePath [uc.seng301.cardbattler.asg3.model.Player] 
+10:33:06.692 [main] TRACE org.hibernate.loader.ast.internal.LoaderSelectBuilder - Starting visitation of FetchParent's Fetchables : uc.seng301.cardbattler.asg3.model.Player
+10:33:06.692 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : d1_0
+10:33:06.692 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [org.hibernate.sql.ast.tree.from.OneToManyTableGroup@5e85c21b] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Player.decks] for NavigablePath [uc.seng301.cardbattler.asg3.model.Player.decks] 
+10:33:06.692 [main] TRACE org.hibernate.loader.ast.internal.LoaderSelectBuilder - Starting visitation of FetchParent's Fetchables : uc.seng301.cardbattler.asg3.model.Player.decks
+10:33:06.692 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(uc.seng301.cardbattler.asg3.model.Player.decks.{element})] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Player.decks.{element}] for NavigablePath [uc.seng301.cardbattler.asg3.model.Player.decks.{element}] 
+10:33:06.692 [main] TRACE org.hibernate.loader.ast.internal.LoaderSelectBuilder - Starting visitation of FetchParent's Fetchables : uc.seng301.cardbattler.asg3.model.Player.decks.{element}
+10:33:06.693 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [uc.seng301.cardbattler.asg3.model.Player]
+ |  +-EagerCollectionFetch [uc.seng301.cardbattler.asg3.model.Player.decks]
+ |  |  \-EntityFetchJoinedImpl [uc.seng301.cardbattler.asg3.model.Player.decks.{element}]
+ |  \-BasicFetch [uc.seng301.cardbattler.asg3.model.Player.name]
+
+10:33:06.693 [main] TRACE org.hibernate.orm.results.graph.AST - Stack trace calling DomainResultGraphPrinter
+java.lang.Exception: null
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.visitDomainResults(DomainResultGraphPrinter.java:72) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:48) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:39) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translateSelect(AbstractSqlAstTranslator.java:704) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translate(AbstractSqlAstTranslator.java:645) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.<init>(SingleIdLoadPlan.java:67) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.createLoadPlan(SingleIdEntityLoaderStandardImpl.java:195) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.prepare(SingleIdEntityLoaderStandardImpl.java:54) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.prepareLoader(AbstractEntityPersister.java:4376) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.postInstantiate(AbstractEntityPersister.java:4368) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.finishInitialization(MappingMetamodelImpl.java:236) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.metamodel.internal.RuntimeMetamodelsImpl.finishInitialization(RuntimeMetamodelsImpl.java:60) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:311) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:754) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:773) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at uc.seng301.cardbattler.asg3.game.Game.<init>(Game.java:59) [main/:?]
+	at uc.seng301.cardbattler.asg3.App.main(App.java:21) [main/:?]
+10:33:06.693 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (p1 : uc.seng301.cardbattler.asg3.model.Player) {
+          primaryTableReference : player as p1_0
+          TableGroupJoins {
+            left  join OneToManyTableGroup (d1 : uc.seng301.cardbattler.asg3.model.Player.decks) {
+              primaryTableReference : deck as d1_0
+            }
+          }
+        }
+      }
+    }
+
+10:33:06.693 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: uc.seng301.cardbattler.asg3.model.Spell
+10:33:06.693 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id_card from card where id_card =?
+10:33:06.693 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into card (description, name, card_type, id_card) values (?, ?, 2, ?)
+10:33:06.693 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update card set description=?, name=? where id_card=?
+10:33:06.693 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from card where id_card=?
+10:33:06.693 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : s1_0
+10:33:06.693 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(uc.seng301.cardbattler.asg3.model.Spell)] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Spell] for NavigablePath [uc.seng301.cardbattler.asg3.model.Spell] 
+10:33:06.693 [main] TRACE org.hibernate.loader.ast.internal.LoaderSelectBuilder - Starting visitation of FetchParent's Fetchables : uc.seng301.cardbattler.asg3.model.Spell
+10:33:06.693 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [uc.seng301.cardbattler.asg3.model.Spell]
+ |  +-BasicFetch [treat(uc.seng301.cardbattler.asg3.model.Spell as #uc.seng301.cardbattler.asg3.model.Card).description]
+ |  \-BasicFetch [treat(uc.seng301.cardbattler.asg3.model.Spell as #uc.seng301.cardbattler.asg3.model.Card).name]
+
+10:33:06.693 [main] TRACE org.hibernate.orm.results.graph.AST - Stack trace calling DomainResultGraphPrinter
+java.lang.Exception: null
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.visitDomainResults(DomainResultGraphPrinter.java:72) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:48) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:39) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translateSelect(AbstractSqlAstTranslator.java:704) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translate(AbstractSqlAstTranslator.java:645) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.<init>(SingleIdLoadPlan.java:67) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.createLoadPlan(SingleIdEntityLoaderStandardImpl.java:195) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.prepare(SingleIdEntityLoaderStandardImpl.java:54) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.prepareLoader(AbstractEntityPersister.java:4376) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.postInstantiate(AbstractEntityPersister.java:4368) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.finishInitialization(MappingMetamodelImpl.java:236) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.metamodel.internal.RuntimeMetamodelsImpl.finishInitialization(RuntimeMetamodelsImpl.java:60) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:311) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:754) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:773) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at uc.seng301.cardbattler.asg3.game.Game.<init>(Game.java:59) [main/:?]
+	at uc.seng301.cardbattler.asg3.App.main(App.java:21) [main/:?]
+10:33:06.693 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (s1 : uc.seng301.cardbattler.asg3.model.Spell) {
+          primaryTableReference : card as s1_0
+        }
+      }
+    }
+
+10:33:06.693 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: uc.seng301.cardbattler.asg3.model.Card
+10:33:06.693 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id_card from card where id_card =?
+10:33:06.693 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into card (description, name, card_type, id_card) values (?, ?, 3046160, ?)
+10:33:06.693 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update card set description=?, name=? where id_card=?
+10:33:06.693 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from card where id_card=?
+10:33:06.693 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : c1_0
+10:33:06.693 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(uc.seng301.cardbattler.asg3.model.Card)] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Card] for NavigablePath [uc.seng301.cardbattler.asg3.model.Card] 
+10:33:06.693 [main] TRACE org.hibernate.loader.ast.internal.LoaderSelectBuilder - Starting visitation of FetchParent's Fetchables : uc.seng301.cardbattler.asg3.model.Card
+10:33:06.694 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [uc.seng301.cardbattler.asg3.model.Card]
+ |  +-BasicFetch [uc.seng301.cardbattler.asg3.model.Card.description]
+ |  +-BasicFetch [uc.seng301.cardbattler.asg3.model.Card.name]
+ |  +-BasicFetch [treat(uc.seng301.cardbattler.asg3.model.Card as #uc.seng301.cardbattler.asg3.model.Monster).attack]
+ |  +-BasicFetch [treat(uc.seng301.cardbattler.asg3.model.Card as #uc.seng301.cardbattler.asg3.model.Monster).cardPosition]
+ |  +-BasicFetch [treat(uc.seng301.cardbattler.asg3.model.Card as #uc.seng301.cardbattler.asg3.model.Monster).defence]
+ |  \-BasicFetch [treat(uc.seng301.cardbattler.asg3.model.Card as #uc.seng301.cardbattler.asg3.model.Monster).life]
+
+10:33:06.694 [main] TRACE org.hibernate.orm.results.graph.AST - Stack trace calling DomainResultGraphPrinter
+java.lang.Exception: null
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.visitDomainResults(DomainResultGraphPrinter.java:72) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:48) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:39) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translateSelect(AbstractSqlAstTranslator.java:704) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translate(AbstractSqlAstTranslator.java:645) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.<init>(SingleIdLoadPlan.java:67) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.createLoadPlan(SingleIdEntityLoaderStandardImpl.java:195) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.prepare(SingleIdEntityLoaderStandardImpl.java:54) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.prepareLoader(AbstractEntityPersister.java:4376) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.postInstantiate(AbstractEntityPersister.java:4368) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.finishInitialization(MappingMetamodelImpl.java:236) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.metamodel.internal.RuntimeMetamodelsImpl.finishInitialization(RuntimeMetamodelsImpl.java:60) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:311) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:754) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:773) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at uc.seng301.cardbattler.asg3.game.Game.<init>(Game.java:59) [main/:?]
+	at uc.seng301.cardbattler.asg3.App.main(App.java:21) [main/:?]
+10:33:06.694 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (c1 : uc.seng301.cardbattler.asg3.model.Card) {
+          primaryTableReference : card as c1_0
+        }
+      }
+    }
+
+10:33:06.694 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: uc.seng301.cardbattler.asg3.model.Monster
+10:33:06.694 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id_card from card where id_card =?
+10:33:06.694 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into card (description, name, attack, cardPosition, defence, life, card_type, id_card) values (?, ?, ?, ?, ?, ?, 1, ?)
+10:33:06.694 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update card set description=?, name=?, attack=?, cardPosition=?, defence=?, life=? where id_card=?
+10:33:06.694 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from card where id_card=?
+10:33:06.694 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : m1_0
+10:33:06.694 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(uc.seng301.cardbattler.asg3.model.Monster)] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Monster] for NavigablePath [uc.seng301.cardbattler.asg3.model.Monster] 
+10:33:06.694 [main] TRACE org.hibernate.loader.ast.internal.LoaderSelectBuilder - Starting visitation of FetchParent's Fetchables : uc.seng301.cardbattler.asg3.model.Monster
+10:33:06.694 [main] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [uc.seng301.cardbattler.asg3.model.Monster]
+ |  +-BasicFetch [treat(uc.seng301.cardbattler.asg3.model.Monster as #uc.seng301.cardbattler.asg3.model.Card).description]
+ |  +-BasicFetch [treat(uc.seng301.cardbattler.asg3.model.Monster as #uc.seng301.cardbattler.asg3.model.Card).name]
+ |  +-BasicFetch [uc.seng301.cardbattler.asg3.model.Monster.attack]
+ |  +-BasicFetch [uc.seng301.cardbattler.asg3.model.Monster.cardPosition]
+ |  +-BasicFetch [uc.seng301.cardbattler.asg3.model.Monster.defence]
+ |  \-BasicFetch [uc.seng301.cardbattler.asg3.model.Monster.life]
+
+10:33:06.694 [main] TRACE org.hibernate.orm.results.graph.AST - Stack trace calling DomainResultGraphPrinter
+java.lang.Exception: null
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.visitDomainResults(DomainResultGraphPrinter.java:72) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:48) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.results.graph.DomainResultGraphPrinter.logDomainResultGraph(DomainResultGraphPrinter.java:39) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translateSelect(AbstractSqlAstTranslator.java:704) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.sql.ast.spi.AbstractSqlAstTranslator.translate(AbstractSqlAstTranslator.java:645) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdLoadPlan.<init>(SingleIdLoadPlan.java:67) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.createLoadPlan(SingleIdEntityLoaderStandardImpl.java:195) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.loader.ast.internal.SingleIdEntityLoaderStandardImpl.prepare(SingleIdEntityLoaderStandardImpl.java:54) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.prepareLoader(AbstractEntityPersister.java:4376) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.postInstantiate(AbstractEntityPersister.java:4368) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.finishInitialization(MappingMetamodelImpl.java:236) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.metamodel.internal.RuntimeMetamodelsImpl.finishInitialization(RuntimeMetamodelsImpl.java:60) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:311) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:754) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:773) [hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at uc.seng301.cardbattler.asg3.game.Game.<init>(Game.java:59) [main/:?]
+	at uc.seng301.cardbattler.asg3.App.main(App.java:21) [main/:?]
+10:33:06.694 [main] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (m1 : uc.seng301.cardbattler.asg3.model.Monster) {
+          primaryTableReference : card as m1_0
+        }
+      }
+    }
+
+10:33:06.695 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : d1_0
+10:33:06.695 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [org.hibernate.sql.ast.tree.from.OneToManyTableGroup@1d2fb82] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Player.decks] for NavigablePath [uc.seng301.cardbattler.asg3.model.Player.decks] 
+10:33:06.695 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(uc.seng301.cardbattler.asg3.model.Player.decks.{element})] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Player.decks.{element}] for NavigablePath [uc.seng301.cardbattler.asg3.model.Player.decks.{element}] 
+10:33:06.695 [main] TRACE org.hibernate.loader.ast.internal.LoaderSelectBuilder - Starting visitation of FetchParent's Fetchables : uc.seng301.cardbattler.asg3.model.Player.decks.{element}
+10:33:06.695 [main] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : c1_0
+10:33:06.695 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [org.hibernate.sql.ast.tree.from.OneToManyTableGroup@1d289d3f] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Deck.cards] for NavigablePath [uc.seng301.cardbattler.asg3.model.Deck.cards] 
+10:33:06.695 [main] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(uc.seng301.cardbattler.asg3.model.Deck.cards.{element})] with identifierForTableGroup [uc.seng301.cardbattler.asg3.model.Deck.cards.{element}] for NavigablePath [uc.seng301.cardbattler.asg3.model.Deck.cards.{element}] 
+10:33:06.696 [main] TRACE org.hibernate.loader.ast.internal.LoaderSelectBuilder - Starting visitation of FetchParent's Fetchables : uc.seng301.cardbattler.asg3.model.Deck.cards.{element}
+10:33:06.701 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Wrapping up metadata context...
+10:33:06.701 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Starting entity [uc.seng301.cardbattler.asg3.model.Card]
+10:33:06.701 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building identifier attribute [uc.seng301.cardbattler.asg3.model.Card.cardId]
+10:33:06.701 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [cardId]
+10:33:06.701 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private java.lang.Long uc.seng301.cardbattler.asg3.model.Card.cardId]
+10:33:06.701 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=long, class=org.hibernate.type.internal.NamedBasicTypeImpl]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Card.description]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [description]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private java.lang.String uc.seng301.cardbattler.asg3.model.Card.description]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=string, class=org.hibernate.type.internal.NamedBasicTypeImpl]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Card.name]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [name]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private java.lang.String uc.seng301.cardbattler.asg3.model.Card.name]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=string, class=org.hibernate.type.internal.NamedBasicTypeImpl]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.model.domain.AbstractIdentifiableType - Interpreting domain-model identifier descriptor
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Completed entity [uc.seng301.cardbattler.asg3.model.Card]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Starting entity [uc.seng301.cardbattler.asg3.model.Trap]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.model.domain.AbstractIdentifiableType - Interpreting domain-model identifier descriptor
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Completed entity [uc.seng301.cardbattler.asg3.model.Trap]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Starting entity [uc.seng301.cardbattler.asg3.model.Deck]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building identifier attribute [uc.seng301.cardbattler.asg3.model.Deck.deckId]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [deckId]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private java.lang.Long uc.seng301.cardbattler.asg3.model.Deck.deckId]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=long, class=org.hibernate.type.internal.NamedBasicTypeImpl]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Deck.cards]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [cards]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private java.util.List uc.seng301.cardbattler.asg3.model.Deck.cards]
+10:33:06.703 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=java.util.Collection(uc.seng301.cardbattler.asg3.model.Deck.cards), class=org.hibernate.type.BagType]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Deck.name]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [name]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private java.lang.String uc.seng301.cardbattler.asg3.model.Deck.name]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=string, class=org.hibernate.type.internal.NamedBasicTypeImpl]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Deck.player]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [player]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private uc.seng301.cardbattler.asg3.model.Player uc.seng301.cardbattler.asg3.model.Deck.player]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=uc.seng301.cardbattler.asg3.model.Player, class=org.hibernate.type.ManyToOneType]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.model.domain.AbstractIdentifiableType - Interpreting domain-model identifier descriptor
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Completed entity [uc.seng301.cardbattler.asg3.model.Deck]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Starting entity [uc.seng301.cardbattler.asg3.model.Player]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building identifier attribute [uc.seng301.cardbattler.asg3.model.Player.playerId]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [playerId]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private java.lang.Long uc.seng301.cardbattler.asg3.model.Player.playerId]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=long, class=org.hibernate.type.internal.NamedBasicTypeImpl]
+10:33:06.704 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Player.decks]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [decks]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private java.util.List uc.seng301.cardbattler.asg3.model.Player.decks]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=java.util.Collection(uc.seng301.cardbattler.asg3.model.Player.decks), class=org.hibernate.type.BagType]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Player.name]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [name]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private java.lang.String uc.seng301.cardbattler.asg3.model.Player.name]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=string, class=org.hibernate.type.internal.NamedBasicTypeImpl]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.model.domain.AbstractIdentifiableType - Interpreting domain-model identifier descriptor
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Completed entity [uc.seng301.cardbattler.asg3.model.Player]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Starting entity [uc.seng301.cardbattler.asg3.model.Spell]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.model.domain.AbstractIdentifiableType - Interpreting domain-model identifier descriptor
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Completed entity [uc.seng301.cardbattler.asg3.model.Spell]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Starting entity [uc.seng301.cardbattler.asg3.model.Monster]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Monster.attack]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [attack]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private int uc.seng301.cardbattler.asg3.model.Monster.attack]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=integer, class=org.hibernate.type.internal.NamedBasicTypeImpl]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Monster.cardPosition]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [cardPosition]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private uc.seng301.cardbattler.asg3.model.CardPosition uc.seng301.cardbattler.asg3.model.Monster.cardPosition]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=org.hibernate.type.EnumType, class=org.hibernate.type.CustomType]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Monster.defence]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [defence]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private int uc.seng301.cardbattler.asg3.model.Monster.defence]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=integer, class=org.hibernate.type.internal.NamedBasicTypeImpl]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [uc.seng301.cardbattler.asg3.model.Monster.life]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [life]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private int uc.seng301.cardbattler.asg3.model.Monster.life]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=integer, class=org.hibernate.type.internal.NamedBasicTypeImpl]
+10:33:06.705 [main] TRACE org.hibernate.metamodel.model.domain.AbstractIdentifiableType - Interpreting domain-model identifier descriptor
+10:33:06.705 [main] TRACE org.hibernate.metamodel.internal.MetadataContext - Completed entity [uc.seng301.cardbattler.asg3.model.Monster]
+10:33:06.706 [main] DEBUG org.hibernate.query.named.NamedObjectRepository - Checking 0 named HQL queries
+10:33:06.706 [main] DEBUG org.hibernate.query.named.NamedObjectRepository - Checking 0 named SQL queries
+10:33:06.707 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.tool.schema.spi.SchemaManagementTool]
+10:33:06.711 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.tool.schema.spi.SqlScriptCommandExtractor]
+10:33:06.712 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@22791b75] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+10:33:06.857 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7b9088f2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+10:33:07.076 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform]
+10:33:07.076 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+10:33:07.076 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatformResolver]
+10:33:07.077 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+10:33:07.079 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:33:07.079 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10:33:07.080 [main] DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+10:33:07.081 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.event.spi.EntityCopyObserverFactory]
+10:33:07.081 [main] DEBUG org.hibernate.event.internal.EntityCopyObserverFactoryInitiator - Configured EntityCopyObserver strategy: disallow
+10:33:07.082 [main] TRACE org.hibernate.type.spi.TypeConfiguration$Scope - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@5a8c93] for TypeConfiguration
+10:33:07.083 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@d87d449
+10:33:07.084 [main] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jndi.spi.JndiService]
+10:33:07.084 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Registering SessionFactory: 54feed13-f039-4210-992e-7bfc54fb73ee (<unnamed>)
+10:33:07.085 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+10:33:36.223 [Hibernate Connection Pool Validation Thread] DEBUG org.hibernate.orm.connections.pooling - Connection pool now considered primed; min-size will be maintained

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uc.seng301.cardbattler.asg3.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-27T08:42:33" hostname="cs23026jv" time="0.006">
+  <properties/>
+  <testcase name="appHasAGreeting()" classname="uc.seng301.cardbattler.asg3.AppTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
