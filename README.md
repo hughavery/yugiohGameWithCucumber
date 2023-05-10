@@ -19,8 +19,7 @@ A partial domain model is included below
 
 ## Authors
 
-Initial contribution by SENG301 teaching team.
-
+Initial contribution by SENG301 teaching team. Finishing touches made by Hugh Avery
 ## Content
 
 ```
